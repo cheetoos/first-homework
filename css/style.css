@@ -1,0 +1,118 @@
+*{/*border:solid 1px;*/
+position:relative;
+text-align:center;
+}
+/*上下邊*/
+html,body{
+	width:100%;height:100%;
+	padding:0px;margin:0px;
+}
+body{
+	background-color:#51270b;
+  border-top:solid 70px #e7dbb6;
+	border-bottom:solid 211px #e7dbb6;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.namecard{
+	font-family:微軟正黑體;
+	width:250px;
+	height:250px;
+	margin:auto;
+	margin-top:210px;
+	background-color:#51270b;
+	color:white;
+	overflow:scroll;
+	overflow:hidden;
+	border-radius:99ex;
+	box-shadow: 0px 12px 15px rgba(0, 0, 0, 0.3);
+}
+.namecard h1{
+	letter-spacing:4px;
+	font-size:21px;
+	line-height:15px;
+}
+.namecard span{
+	font-size:19px;
+	opacity:0.5;
+	font-family:Bauhaus93;
+}
+.namecard h5{
+	font-size:14px;
+  letter-spacing:6px;  
+	line-height:5px;
+}
+.namecard p{
+	font-size:13px;
+	letter-spacing:6px;
+}
+.page_title{
+	text-align:center;
+	font-size:24px;
+	font-weight:500px;
+	color:rgba(0,0,0,0.5);
+}
+.mark{
+	font-family:Bauhaus93;
+	font-size:250px;
+	position:absolute;
+	top:10px;
+	width:100%;
+	height:100%;
+	text-align:center;
+	color:#e7dbb6;
+	opacity:0.3;
+}
+.img{
+	top:-400px;
+}
+.circle{
+	border-radius:100%;
+	width:170px;
+	height:170px;
+	position:absolute;
+	top:400px;
+	background-color:#51270b;
+	animation-name:c1;
+	animation-duration:10s;
+	animation-iteration-count: infinite
+}
+@keyframes c1{
+	0%{width:170px;height:170px;top:300px;opacity:0.7;}
+	50%{width:140px;height:140px;top:450px;opacity:1;}
+	100%{width:170px;height:170px;top:300px;opacity:0.7;}
+}
+.circle2{
+	border-radius:100%;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:360px;
+	right:0px;
+	background-color:#51270b;
+	animation-name:c2;
+	animation-duration:10s;
+	animation-iteration-count: infinite
+}
+@keyframes c2{
+	0%{width:180px;height:180px;right:0px;opacity:0.8;}
+	50%{width:140px;height:140px;right:100px;opacity:1;}
+	100%{width:180px;height:180px;right:0px;opacity:0.8;}
+}
+.circle3{
+	border-radius:100%;
+	width:140px;
+	height:140px;
+	position:absolute;
+	right:400px;
+	top:500px;
+	background-color:#51270b;
+	animation-name:c3;
+	animation-duration:10s;
+	animation-iteration-count: infinite
+}
+@keyframes c3{
+	0%{width:50px;height:50px;}
+	50%{width:80px;height:80px;opacity:0.7;}
+	100%{width:50px;height:50px;}
+	
